@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franco Arias | Desarrollador Web</title>
+  <meta name="description" content="Franco Arias - Desarrollador Web Full Stack. Portfolio profesional con proyectos y experiencia."/>
+  
+  <!-- Fuentes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header con menú hamburguesa -->
+  <header class="header" id="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#presentacion" class="logo">
+          <h2>Franco<span class="logo-highlight">Dev</span></h2>
+        </a>
+        
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#presentacion" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a href="#proyectos" class="nav-link">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="main">
+    <section class="hero" id="presentacion">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            ¡Hola! Soy <span class="gradient-text">Franco Arias</span>
+          </h1>
+          <p class="hero-subtitle">
+            Desarrollador Web Full Stack apasionado por crear soluciones digitales 
+            innovadoras y experiencias de usuario excepcionales.
+          </p>
+          <div class="hero-buttons">
+            <a href="#sobre-mi" class="btn btn-primary">Sobre mí</a>
+            <a href="assets/cv.pdf.pdf" class="btn btn-secondary" target="_blank" download>
+              <i class="fas fa-download"></i> Descargar CV
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="about" id="sobre-mi">
+      <div class="container">
+        <h2 class="section-title">Un poco sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>Mi Historia</h3>
+            <p>Soy un desarrollador apasionado con [X] años de experiencia en el desarrollo web. Me especializo en crear aplicaciones modernas y escalables usando tecnologías como React, Node.js, y más.</p>
+            <p>Mi enfoque está en escribir código limpio, optimizado y centrado en el usuario. Siempre estoy aprendiendo nuevas tecnologías y mejorando mis habilidades.</p>
+            
+            <h3>Mis Habilidades</h3>
+            <div class="skills-grid">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Git</span>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder large">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/project1.jpg" alt="Proyecto 1" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link github">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Platform</h3>
+              <p>Plataforma de comercio electrónico completa con sistema de pagos y panel de administración.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/project2.jpg" alt="Proyecto 2" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>Aplicación del clima con API en tiempo real y diseño responsive.</p>
+              <div class="project-tech">
+                <span>Vue.js</span>
+                <span>API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/images/projects/project3.jpg" alt="Proyecto 3" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Task Manager</h3>
+              <p>Gestor de tareas con autenticación y sincronización en tiempo real.</p>
+              <div class="project-tech">
+                <span>Next.js</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="container">
+        <h2 class="section-title">Contáctame</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>francoarias951@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/FrancoA22" target="_blank">FrancoA22</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-twitter"></i>
+              <a href="https://x.com/FrancoArias054" target="_blank">@FrancoArias054</a>
+            </div>
+          </div>
+          <form class="contact-form" action="#" method="POST">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Franco Arias</h3>
+          <p>Desarrollador Web apasionado por la tecnología.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#presentacion">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Sígueme</h4>
+          <div class="social-links">
+            <a href="https://github.com/FrancoA22" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/franco_arias1/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/FrancoArias054" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Franco Arias. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
